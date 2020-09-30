@@ -3,31 +3,63 @@
     padding:0;
     }
     
-    .image{
-        padding-left: 10px;
-    }
-
-    .continent h1{
-        height: 100px;
-        padding-left: 0px;
-        padding-top: 20px;
-        font-size: 60px;
-    }
+    /* comentarios */
 
     .header{
         color: white;
         font-family: 'Bangers', cursive;
         background-color: darkslategray;
         
-        height:70px;
+        height:100px;
         width:100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between ;
+        /* no tocar*/
     }
     
-    .menu{
-    font-size:30px;
-    word-spacing: 80px;
-    padding-right: 300px;
+    div.image{
+        padding-left: 10px;
+        padding-top: 0px;
     }
+
+    
+    /* p */
+
+    div.continental h1{
+        height: 100px;
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 60px;
+    }
+
+    div.buscador{  
+        padding-left: 100px;
+        padding-top: 0px;
+    }
+
+    button.boton{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    /* c */
+    /* uk */
+    
+    nav.menu{
+        font-size:25px;
+        word-spacing: 30px;
+        padding-left: 200px;
+        padding-top: 0px;
+    }
+
+    div.image2{
+        padding-left: 20px;
+        padding-top: 0px;
+    }
+
+    
+    div.conjunto{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    
+    

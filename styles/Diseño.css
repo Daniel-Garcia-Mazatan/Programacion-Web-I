@@ -69,18 +69,21 @@
         
     }
 
+    /* OPCIONES EN LA BARRA DE MENU (NAVBAR) */
     a.nav-link{
         color: white;
         border-right: 1px ridge yellowgreen;
         border-bottom: 1px ridge yellowgreen;
     }
 
+    /* OPCIONES EN LA BARRA DE MENU (NAVBAR) */
     li.nav-item{
         
         margin-left: 20px;
         margin-right: 20px;
     }
 
+    /* AJUSTADOR DE TAMAÑO PARA IMAGENES EN CAROUSEL */
     div.carousel-item{
         width: 598px;
         height: 398px;

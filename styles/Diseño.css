@@ -73,8 +73,12 @@
         margin-right: 20px;
     }
 
+    /* //////////////////////////////////////////////////////////////////////
+    //////////////// ///////// CAROUSEL ////////////// ///////////////////////// 
+    ///////////////////////////////////////////////////////////////////////////*/
+
     #carouselExampleFade{
-        margin-top: 5px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
         width: 900px;
@@ -92,67 +96,75 @@
     /* //////////////////////////////////////////////////////////////////////
     //////////////// CONJUNTO DE NOTICIAS PRINCIPALES ///////////////////////// 
     ///////////////////////////////////////////////////////////////////////////*/
-    div.noticias-principales{
-        margin-top: 40px;
-        display: flex;
-        width: 1000px;
-    }
 
-    /* INDICE DEL LADO IZQUIERDO */
-    div.list-group{
-        display: inline-block;
-        width: 210px;
+    div.lo-mas-reciente{
+        margin-top:40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-right: 10px inset darkgreen;
+        border-bottom: 10px inset darkgreen;
+        border-radius: 10px;
+        font-size: 30px;
         font-family: 'Bangers';
     }
 
-    /* SECCION DE NOTICIAS */
-    div.scrollspy-example{
-        display: inline-block;
-        padding-left: 20px;
-        width: 800px;
-    } 
+    div.seccion-de-noticias{
+        margin-top: 40px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
 
     /* NOTICIAS */
     div.card-principal{
-        width: 1000px;
+        display: inline-block;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
         background-color: darkslategray;
         color: white;
         border:10px outset gray;
         border-radius: 10px;
     }
 
-    /* conjunto texto imagen */
-    div.noticia-imagen{
-        display: flex;
-        /* background-image: url(https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg); */
-    }
-
     /* titulo de la noticia */
     div.card-principal div.card-header{
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Bangers';
         font-style: italic;
-        background-color: seagreen;
-    }
-
-    /* resumen de la noticia */
-    div.card-principal div.card-body{
-        font-size: 20px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: darkgreen;
     }
 
     /* imagen de la noticia */
     div.card-principal img.card-img{
         padding: 10px;
-        width: 600px;
-        height: 400px;
+        width: 100%;
+        height: 200px;
+    }
+
+    /* resumen de la noticia */
+    div.card-principal div.card-body{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     /* tiempo de publicacion */
     div.card-principal div.card-footer{
         text-align: right;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: seagreen;
+        background-color: darkgreen;
+    }
+
+    /* //////////////////////////////////////////////////////////////////////
+    //////////////// //////////////FOOTER ///////////////////////// //////////
+    ///////////////////////////////////////////////////////////////////////////*/
+
+    footer.pie-de-pagina{
+        margin-top: 40px;
+        background-color: rgb(73, 73, 73);
+        width: 100%;
+        height: 150px;
+        color:white;
     }
     
     

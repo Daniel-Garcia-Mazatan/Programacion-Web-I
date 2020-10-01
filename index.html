@@ -11,7 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
+  <!-- ////////////////////////////////////////////////////////////////////////////////
+      ///////////////////////////////ENCABEZADO//////////// ///////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////-->
 
     <header class="header">
      
@@ -63,7 +68,10 @@
     </header>
 
 
-    <!-- BARRA DE MENU(DONDE VIENE EL MENU) -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////
+      //////////////////////BARRA DE MENU(DONDE VIENE EL MENU) ///////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////-->
+
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkslategray; margin-top: 5px;">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" 
@@ -100,17 +108,21 @@
       </div>
     </nav>
 
+    <!-- ////////////////////////////////////////////////////////////////////////////////
+      ///////////////////////////////////CAROUSEL ///////// ///////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////-->
+
     <section>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://media.metrolatam.com/2019/12/12/xboxseriesx-231f82cabf387e7fbefd0043e28f27a1.jpg" class="d-block w-100" alt="X BOX">
+                <img src="https://www.nintendo.com/content/dam/noa/en_US/whatsnew/2020/min-min-from-arms-dishes-out-spicy-punches-and-kicks-in-super-smash-bros-ultimate/845x480_WN_smash-vol2-minmin.jpg" class="d-block w-100" alt="Min min">
               </div>
               <div class="carousel-item">
-                <img src="https://phantom-elmundo.unidadeditorial.es/c7d1b8fad42cba84e72d4e1e5e11416c/resize/746/f/jpg/assets/multimedia/imagenes/2020/06/11/15919100847394.jpg" class="d-block w-100" alt="PLAY STATION">
+                <img src="https://i.blogs.es/c93baa/super-mario-64-super-mario-sunshine-y-super-mario-galaxy-llegaran-a-nintendo-switch-en-el-juego-super-mario-3d-all-stars/1366_2000.png" class="d-block w-100" alt="SUPER MARIO 3D ALLSTARS">
               </div>
               <div class="carousel-item">
-                <img src="https://assets.vg247.com/current/2017/01/nintendo_switch_new_6.jpg" class="d-block w-100" alt="NINTENDO">
+                <img src="https://portal.33bits.net/wp-content/uploads/2019/06/fotonoticia_20190607095954_1200.jpg" class="d-block w-100" alt="E3 2019">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -124,65 +136,72 @@
           </div>
     </section>
 
-    <div class="noticias-principales">
-      <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#list-item-1">Min Min llega a Smash</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-2">Mario revive nuestra infancia</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+    <!-- ////////////////////////////////////////////////////////////////////////////////
+      //////////////////////SECCION NOTICIAS MAS RECIENTES ///////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////-->
+
+    <div class="lo-mas-reciente">Lo más reciente</div>
+
+    <div class="seccion-de-noticias">
+      <!-- aqui comienza la noticia -->
+      <div id="list-item-1" class="card-principal text-left">
+         <div class="card-header">
+          Min Min llega a Smash
+         </div>
+         <img src="https://www.nintenderos.com/wp-content/uploads/2020/06/min.jpg" class="card-img" alt="min min">
+         <div class="card-body">
+           <!-- <h5 class="card-title">Special title treatment</h5> -->
+          <p class="card-text">Nintendo ha anunciado la llegada de un nuevo personaje a Super Smash Bros Ultimate, Min Min de...</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+         </div>
+        <div class="card-footer">
+         hace 2 días
+       </div>
       </div>
+       <!-- aqui termina la noticia -->
 
-      <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-
-        <!-- aqui comienza la noticia -->
-        <div id="list-item-1" class="card-principal text-left">
-          <div class="card-header">
-            Min Min llega a Smash
-          </div>
-          <div class="noticia-imagen">
-            <div class="card-body">
-              <!-- <h5 class="card-title">Special title treatment</h5> -->
-              <p class="card-text">Nintendo ha anunciado la llegada de un nuevo personaje a Super Smash Bros Ultimate, Min Min de Arms llega a dar palizas a sus contrincantes.</p>
-              <a href="#" class="btn btn-primary">Ver más</a>
-            </div>
-            <img src="https://www.nintenderos.com/wp-content/uploads/2020/06/min.jpg" class="card-img" alt="min min">
-          </div>
-          <div class="card-footer">
-            hace 2 días
-          </div>
+      <!-- aqui comienza la noticia -->
+      <div id="list-item-2" class="card-principal text-left">
+        <div class="card-header">
+           Mario revive nuestra infancia
+         </div>
+        <div class="noticia-imagen">
+          <img src="https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg" class="card-img" alt="super mario 3d all stars">
+           <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <p class="card-text">Nintendo ha anunciado la salida de un juego que contiene las 3 versiones de Super Mario en 3D, Super Mario...</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+           </div>
         </div>
-        <!-- aqui termina la noticia -->
-
-        <!-- aqui comienza la noticia -->
-        <div id="list-item-2" class="card-principal text-left">
-          <div class="card-header">
-            Mario revive nuestra infancia
-          </div>
-          <div class="noticia-imagen">
-            <div class="card-body">
-              <!-- <h5 class="card-title">Special title treatment</h5> -->
-              <p class="card-text">Nintendo ha anunciado la salida de un juego que contiene las 3 versiones de Super Mario en 3D, Super Mario 64, Super Mario Sunshine y Super Mario Galaxy vuelven a nuestra epoca para celebrar su aniversario.</p>
-              <a href="#" class="btn btn-primary">Ver más</a>
-            </div>
-            <img src="https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg" class="card-img" alt="super mario 3d all stars">
-          </div>
-          <div class="card-footer">
-            hace 1 semana
-          </div>
+        <div class="card-footer">
+          hace 1 semana
         </div>
-        <!-- aqui termina la noticia -->
-        
-        <!-- <h4 id="list-item-1">Item 1</h4>
-        <p>...</p> -->
-        <h4 id="list-item-3">Item 3</h4>
-        <p>...</p>
-        <h4 id="list-item-4">Item 4</h4>
-        <p>...</p>
       </div>
+       <!-- aqui termina la noticia -->
+
+      <!-- aqui comienza la noticia -->
+      <div id="list-item-2" class="card-principal text-left">
+        <div class="card-header">
+           E3 2019 ha llegado!
+         </div>
+        <div class="noticia-imagen">
+          <img src="https://i.ytimg.com/vi/RSpRjfTMLqo/maxresdefault.jpg" class="card-img" alt="E3 2019">
+           <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <p class="card-text">Ya esta presente ante los fans la maravillosa convencion de videojuegos mas famosa del...</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+           </div>
+        </div>
+        <div class="card-footer">
+          hace 1 año
+        </div>
+      </div>
+       <!-- aqui termina la noticia -->
+
     </div>
-
-    <footer>
-
+    
+    <footer class="pie-de-pagina">
+      *informacion de varias cosas*
 
     </footer>
 </body>

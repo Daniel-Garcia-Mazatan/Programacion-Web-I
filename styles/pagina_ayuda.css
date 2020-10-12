@@ -67,12 +67,14 @@
     div.dropdown{
         padding-left: 20px;
     }
-    
+
     div.conjunto{
         display: flex;
         align-items: center;
         /* justify-content: space-between; */
     }
+
+    
 
     /* //////////////////////////////////////////////////////////////////////
     //////////////// //// /* OPCIONES EN LA BARRA DE MENU (NAVBAR) ///////////
@@ -105,99 +107,46 @@
         margin-right: 20px;
     }
 
-    /* //////////////////////////////////////////////////////////////////////
-    //////////////// ///////// CAROUSEL ////////////// ///////////////////////// 
-    ///////////////////////////////////////////////////////////////////////////*/
 
-    div.carousel{
+    div.info{
         margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
-        width: 900px;
-        height: 504px;
-        border: 8px outset rgb(100, 100, 100);
-        border-radius: 10px;
-    }
-
-    /* AJUSTADOR DE TAMAÑO PARA IMAGENES EN CAROUSEL */
-    div.carousel-item{
-        width: 892px;
-        height: 488px;
-    }
-
-    /* //////////////////////////////////////////////////////////////////////
-    //////////////// CONJUNTO DE NOTICIAS PRINCIPALES ///////////////////////// 
-    ///////////////////////////////////////////////////////////////////////////*/
-
-    div.lo-mas-reciente{
-        margin-top:40px;
-        margin-left: 40px;
-        margin-right: 40px;
-        border-right: 10px inset darkgreen;
-        border-bottom: 10px inset darkgreen;
-        border-radius: 10px;
-        font-size: 30px;
+        font-size: 80px;
         font-family: 'Bangers';
+        text-align: center;
         color:white;
     }
 
-    div.seccion-de-noticias{
-        margin-top: 40px;
-        display: flex;
-        width: 100%;
-        align-items: center;
-    }
+    /* //////////////////////////////////////////////////////////////////////
+    //////////////// NOTICIA/////////////////////// ///////////////////////// 
+    ///////////////////////////////////////////////////////////////////////////*/
 
-    /* NOTICIAS */
-    div.card-principal{
-        display: inline-block;
-        width: 25%;
+    div.card-info{
+        width: 70%;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 40px;
         background-color: rgba(47,79,79,0.75);
         color: white;
         border:10px outset gray;
         border-radius: 10px;
     }
 
-    /* titulo de la noticia */
-    div.card-principal div.card-header{
+        /* resumen de la noticia */
+    div.card-info div.card-body{
         font-size: 20px;
-        font-family: 'Bangers';
-        font-style: italic;
-        background-color: darkgreen;
-    }
-
-    /* imagen de la noticia */
-    div.card-principal img.card-img{
-        padding: 10px;
-        width: 100%;
-        height: 200px;
-    }
-
-    /* resumen de la noticia */
-    div.card-principal div.card-body{
-        font-size: 15px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
-    /* tiempo de publicacion */
-    div.card-principal div.card-footer{
-        text-align: right;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: darkgreen;
+    div.card-info p.card-text{
+        text-align: justify;
     }
 
-    /* //////////////////////////////////////////////////////////////////////
-    //////////////// //////////////FOOTER ///////////////////////// //////////
-    ///////////////////////////////////////////////////////////////////////////*/
-
-    footer.pie-de-pagina{
-        margin-top: 40px;
-        background-color: rgb(73, 73, 73);
-        width: 100%;
-        height: 150px;
-        color:white;
+    div.card-info a.btn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 90%;
     }
-    
-    
+

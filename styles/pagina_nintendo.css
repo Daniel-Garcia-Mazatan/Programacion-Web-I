@@ -28,6 +28,7 @@
         padding-left: 10px;
         padding-top: 20px;
         font-size: 60px;
+        margin-right: 200px;
     }
 
     /* div.buscador{  
@@ -43,7 +44,7 @@
     nav.menu{
         font-size:25px;
         word-spacing: 20px;
-        padding-left: 350px;
+        padding-left: 50px;
         padding-top: 0px;
     } 
 
@@ -62,10 +63,12 @@
     div.image2{
         padding-left: 5px;
         padding-top: 0px;
+        margin-right: 20px;
     }
 
     div.dropdown{
         padding-left: 20px;
+        margin-left: auto;
     }
     
     div.conjunto{
@@ -117,7 +120,7 @@
     div.list-group{
         margin-top: 40px;
         margin-left: 40px;
-        width: 1500px;
+        min-width: 200px;
     }
 
     div.list-group a.list-group-item{
@@ -159,7 +162,7 @@
 
     /* NOTICIAS */
     div.card-novedad{
-        display: inline-block;
+        
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
@@ -167,6 +170,7 @@
         color: white;
         border:10px outset gray;
         border-radius: 10px;
+        display: inline-block;
     }
 
     /* titulo de la noticia */
@@ -182,7 +186,7 @@
         display: inline-block;
         padding: 10px;
         width: 70%;
-        height: 300px;
+        height: auto;
     }
 
     /* resumen de la noticia */
@@ -195,10 +199,15 @@
 
     /* tiempo de publicacion */
     div.card-novedad div.card-footer{
-        text-align: right;
+        display: inline-flex;
+        width: 100%;
         font-size: 15px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: darkgreen;
+    } 
+
+    div.card-novedad div.card-footer div.fecha{
+        margin-left: auto;
     }
 
     /* //////////////////////////////////////////////////////////////////////
@@ -226,7 +235,7 @@
 
     /* NOTICIAS */
     div.card-anno{
-        display: inline-block;
+        
         width: 30%;
         margin-left: 10px;
         margin-right: 10px;
@@ -235,21 +244,31 @@
         color: white;
         border:10px outset gray;
         border-radius: 10px;
+        display: inline-block;
     }
 
     /* titulo de la noticia */
     div.card-anno div.card-header{
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Bangers';
         font-style: italic;
         background-color: darkgreen;
     } 
 
+    div.card-anno div.categoria{
+        color:white;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-style: italic;
+        font-size: small;
+        text-align: right;
+    }
+
     /* imagen de la noticia */
     div.card-anno img.card-img{
         padding: 10px;
         width: 100%;
-        height: 150px;
+        height: auto;
     }
 
     /* resumen de la noticia */
@@ -257,6 +276,8 @@
         font-size: 15px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+
+    
 
     /* tiempo de publicacion */
     div.card-anno div.card-footer{
@@ -309,7 +330,7 @@
         margin-right: 10px;
         margin-bottom: 20px;
         width: 30%;
-        /* height: auto; */
+
         background-color: rgba(47,79,79,0.75);
         color: white;
         display: inline-block;
@@ -320,17 +341,26 @@
 
     /* titulo de la noticia */
     div.card-mas-antiguas div.card-header{
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Bangers';
         font-style: italic;
         background-color: darkgreen;
     } 
 
+    div.card-mas-antiguas div.categoria{
+        color:white;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-style: italic;
+        font-size: small;
+        text-align: right;
+    }
+
     /* imagen de la noticia */
     div.card-mas-antiguas img.card-img{
         padding: 10px;
         width: 100%;
-        height: 150px;
+        height: auto;
     }
 
     /* resumen de la noticia */

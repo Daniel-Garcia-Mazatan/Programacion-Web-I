@@ -52,13 +52,15 @@
         <!-- MINI MENU DE USUARIO -->
         <div class="dropdown">
           <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 60px;">
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Usuario
           </button>
           
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="pagina_perfil.html">Mi perfil</a>
             <a class="dropdown-item" href="#">Cerrar sesion</a>
+            <a class="dropdown-item" href="pagina_agregar_noticia.html">Agregar noticia</a>
+            <a class="dropdown-item" href="pagina_evaluar_noticia.html">Evaluar noticias</a>
             <a class="dropdown-item" href="pagina_ayuda.html">Ayuda</a>
           </div>
         </div>
@@ -134,10 +136,80 @@
                 <input  type="url" name="redes" id="redes" placeholder="facebook" disabled/>
             </div>
             <div class="form-group">
+              <label for="desc">Descripción: </label>
+              <input type="text" autocomplete="off" name="desc" id="desc" maxlength="100" disabled/>
+            </div>
+            <div class="form-group">
                 <label for="contrasena" class="hide">Contraseña: </label>
                 <input type="password" class="hide" autocomplete="off" name="contrasena" id="contrasena" minlength="8"/>
             </div>
         </form> 
+        <div class="noticias-guardadas-texto">
+          <label for="texto">Noticias guardadas:</label>
+        </div>
+        <div class="seccion-de-noticias-guardadas">
+          <!-- AQUI EMPIEZA LA NOTICIA -->
+              <div id="list-item-2" class="card-noticias-guardadas text-left">
+                  <div class="card-header">
+                      Mario revive nuestra infancia
+                  </div>
+                  <div class="noticia-imagen">
+                      <img src="https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg" class="card-img" alt="super mario 3d all stars">
+                      <div class="card-body">
+                          <!-- <h5 class="card-title">Special title treatment</h5> -->
+                          <p class="card-text">Nintendo ha anunciado la salida de un juego que contiene las 3 versiones de Super Mario en 3D: Super Mario 64, Super Mario Sunshine y Super Mario Galaxy.</p>
+                          <a href="pagina_de_noticia.html" class="btn btn-primary">Ver más</a>
+                          <a href="#" class="btn btn-danger">Quitar</a>
+                      </div>
+                  </div>
+                  <div class="card-footer">
+                      <div class="categoria">consolas</div>
+                      <div class="fecha">10/Oct/2020</div>
+                  </div>
+              </div>
+              <!-- AQUI TERMINA LA NOTICIA -->
+
+              <div id="list-item-2" class="card-noticias-guardadas text-left">
+                <div class="card-header">
+                    Mario revive nuestra infancia
+                </div>
+                <div class="noticia-imagen">
+                    <img src="https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg" class="card-img" alt="super mario 3d all stars">
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Special title treatment</h5> -->
+                        <p class="card-text">Nintendo ha anunciado la salida de un juego que contiene las 3 versiones de Super Mario en 3D: Super Mario 64, Super Mario Sunshine y Super Mario Galaxy.</p>
+                        <a href="pagina_de_noticia.html" class="btn btn-primary">Ver más</a>
+                        <a href="#" class="btn btn-danger">Quitar</a>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="categoria">consolas</div>
+                    <div class="fecha">10/Oct/2020</div>
+                </div>
+              </div>
+            <!-- AQUI TERMINA LA NOTICIA -->
+
+            <div id="list-item-2" class="card-noticias-guardadas text-left">
+              <div class="card-header">
+                  Mario revive nuestra infancia
+              </div>
+              <div class="noticia-imagen">
+                  <img src="https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg" class="card-img" alt="super mario 3d all stars">
+                  <div class="card-body">
+                      <!-- <h5 class="card-title">Special title treatment</h5> -->
+                      <p class="card-text">Nintendo ha anunciado la salida de un juego que contiene las 3 versiones de Super Mario en 3D: Super Mario 64, Super Mario Sunshine y Super Mario Galaxy.</p>
+                      <a href="pagina_de_noticia.html" class="btn btn-primary">Ver más</a>
+                      <a href="#" class="btn btn-danger">Quitar</a>
+                  </div>
+              </div>
+              <div class="card-footer">
+                  <div class="categoria">consolas</div>
+                  <div class="fecha">10/Oct/2020</div>
+              </div>
+            </div>
+          <!-- AQUI TERMINA LA NOTICIA -->
+        </div>
+        </div>
         <a href="#" class="btn1 btn-primary">Editar</a>
         <a href="#" class="btn2 btn-primary">Volver</a>
         </div>

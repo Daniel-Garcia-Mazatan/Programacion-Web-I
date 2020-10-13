@@ -52,13 +52,15 @@
         <!-- MINI MENU DE USUARIO -->
         <div class="dropdown">
           <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 60px;">
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Usuario
           </button>
           
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="pagina_perfil.html">Mi perfil</a>
             <a class="dropdown-item" href="#">Cerrar sesion</a>
+            <a class="dropdown-item" href="pagina_agregar_noticia.html">Agregar noticia</a>
+            <a class="dropdown-item" href="pagina_evaluar_noticia.html">Evaluar noticias</a>
             <a class="dropdown-item" href="pagina_ayuda.html">Ayuda</a>
           </div>
         </div> 
@@ -120,7 +122,7 @@
             <a class="list-group-item list-group-item-action" href="#este-anno">Este año</a>
             <a class="list-group-item list-group-item-action" href="#mas-antiguas">Más antiguo</a>
         </div>
-        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+        <data-spy data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
         
         <!--///////////////////////////////// NOTICIAS DE NOVEDAD///////////////////////////////// -->
         
@@ -139,7 +141,8 @@
                     <a href="pagina_de_noticia.html" class="btn btn-primary">Ver más</a>
                 </div>
                 <div class="card-footer">
-                    06/Sep/2020
+                  <div class="categoria">consolas</div>
+                  <div class="fecha">10/Oct/2020</div>
                 </div>
             </div>
             <!-- aqui termina la noticia -->
@@ -155,10 +158,11 @@
                     <a href="pagina_de_noticia.html" class="btn btn-primary">Ver más</a>
                 </div>
                 <div class="card-footer">
-                    15/May/2020
+                  <div class="categoria">consolas</div>
+                  <div class="fecha">10/Oct/2020</div>
                 </div>
-                <!-- aqui termina la noticia -->
             </div>
+            <!-- aqui termina la noticia -->
         </div>
         
         <!--///////////////////////////////// NOTICIAS DEL AÑO///////////////////////////////// -->
@@ -171,6 +175,7 @@
                 <div class="card-header">
                     Min Min llega a Smash
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://www.nintenderos.com/wp-content/uploads/2020/06/min.jpg" class="card-img" alt="min min">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -188,6 +193,7 @@
                 <div class="card-header">
                     Mario revive nuestra infancia
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg" class="card-img" alt="super mario 3d all stars">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -195,7 +201,7 @@
                     <a href="pagina_de_noticia.html" class="btn btn-primary">Ver más</a>
                 </div>
                 <div class="card-footer">
-                    hace 1 semana
+                    03/02/2020
                 </div>
             </div>
             <!-- aqui termina la noticia -->
@@ -205,6 +211,7 @@
                 <div class="card-header">
                     E3 2019 ha llegado!
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://i.ytimg.com/vi/RSpRjfTMLqo/maxresdefault.jpg" class="card-img" alt="E3 2019">
                 <div class="card-body">
                      <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -222,6 +229,7 @@
                 <div class="card-header">
                     E3 2019 ha llegado!
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://i.ytimg.com/vi/RSpRjfTMLqo/maxresdefault.jpg" class="card-img" alt="E3 2019">
                 <div class="card-body">
                      <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -233,7 +241,7 @@
                 </div>
             </div>
             <!-- aqui termina la noticia -->
-        </div>
+          </div>
 
         <!--///////////////////////////////// NOTICIAS MAS ANTIGUAS/////////////////////////////////////// -->
 
@@ -248,6 +256,7 @@
                 <div class="card-header">
                     Min Min llega a Smash
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://www.nintenderos.com/wp-content/uploads/2020/06/min.jpg" class="card-img" alt="min min">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -265,6 +274,7 @@
                 <div class="card-header">
                     Mario revive nuestra infancia
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://media.vandal.net/i/1280x720/89906/super-mario-3d-allstars-2020931616177_1.jpg" class="card-img" alt="super mario 3d all stars">
                 <div class="card-body">
                     <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -282,6 +292,7 @@
                 <div class="card-header">
                     E3 2019 ha llegado!
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://i.ytimg.com/vi/RSpRjfTMLqo/maxresdefault.jpg" class="card-img" alt="E3 2019">
                 <div class="card-body">
                      <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -299,6 +310,7 @@
                 <div class="card-header">
                     E3 2019 ha llegado!
                 </div>
+                <div class="categoria">Consolas</div>
                 <img src="https://i.ytimg.com/vi/RSpRjfTMLqo/maxresdefault.jpg" class="card-img" alt="E3 2019">
                 <div class="card-body">
                      <!-- <h5 class="card-title">Special title treatment</h5> -->
@@ -314,9 +326,9 @@
             <!-- </aside> -->
 
         </div>
-
+      </div>
     </div>
-    </div>
+    
 
     <footer class="pie-de-pagina">
       *informacion de varias cosas*

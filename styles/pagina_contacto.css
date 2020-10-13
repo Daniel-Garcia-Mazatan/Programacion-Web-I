@@ -28,6 +28,7 @@
         padding-left: 10px;
         padding-top: 20px;
         font-size: 60px;
+        margin-right: 200px;
     }
 
     /* div.buscador{  
@@ -43,7 +44,7 @@
     nav.menu{
         font-size:25px;
         word-spacing: 20px;
-        padding-left: 350px;
+        padding-left: 50px;
         padding-top: 0px;
     } 
 
@@ -62,10 +63,12 @@
     div.image2{
         padding-left: 5px;
         padding-top: 0px;
+        margin-right: 20px;
     }
 
     div.dropdown{
         padding-left: 20px;
+        margin-left: auto;
     }
 
     div.conjunto{
